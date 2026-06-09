@@ -1,0 +1,29 @@
+# === Maven ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === IDE Configurations (IntelliJ, Eclipse, NetBeans) ===
+.idea/
+*.iml
+*.iws
+.settings/
+.project
+.classpath
+.factorypath
+nbproject/
+build/
+
+# === Log Files ===
+*.log
+
+# === OS temporary files ===
+.DS_Store
+Thumbs.db
