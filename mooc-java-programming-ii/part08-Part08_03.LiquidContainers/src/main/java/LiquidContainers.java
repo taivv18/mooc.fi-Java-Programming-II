@@ -17,6 +17,7 @@ public class LiquidContainers {
             if (parts[0].equals("quit")) {
                 break;
             }
+            int amount = Integer.valueOf(parts[1]);
 
             // add amount adds the amount of liquid specified by the parameter to the first container. The inserted amount must be specified as an integer. The container can't hold more than a hundred liters and everything added past that will go to waste.
 
