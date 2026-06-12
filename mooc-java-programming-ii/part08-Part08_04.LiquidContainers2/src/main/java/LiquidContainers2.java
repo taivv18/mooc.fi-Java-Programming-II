@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class LiquidContainers2 {
@@ -6,16 +5,8 @@ public class LiquidContainers2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        UserInterface userInterface = new UserInterface(scan);
 
-        while (true) {
-            System.out.print("> ");
-
-            String input = scan.nextLine();
-            if (input.equals("quit")) {
-                break;
-            }
-
-        }
+        userInterface.start();
     }
-
 }
